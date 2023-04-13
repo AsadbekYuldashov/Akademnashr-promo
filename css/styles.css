@@ -1,133 +1,179 @@
-
-                /* SITE HEADER */
+body{
+    font-family: "roboto",  sans-serif;
+}
+/*site header */
 
 header{
-    border-top: 5px solid orange
-    ;
+    border-top: 5px solid #FF7500;
+    list-style: none;
+}
+.site-header{
+    background-color: #fff;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
-                /* SITE NAV */
+.site-header-actions{
+    display: flex;
+    align-items: center;
+}
 
-.nav-link {
+.sitenav-list{
+    text-decoration: none;
+    list-style: none;
+    line-height: 15.23px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    display: flex;
+}
+.orange-line{
+    width: 80px;
+    height: 3px;
+    background-color: #FF7500;
+}
+
+.header-links{
+    list-style: none;
+    font-weight: 500;
     font-size: 13px;
     line-height: 15px;
-    font-weight: 500;
     letter-spacing: 1px;
     text-transform: uppercase;
     text-decoration: none;
     color: #000;
 }
 
-.orange-line {
-    width: 80px;
-    height: 3px;
-    background-color: #ff7500;
-}
+/* HERO */
 
-                    /* SITE HERO */
 
-.b-name{
-    font-size: 40px;   
-    line-height: 1.2;
-    letter-spacing: 0.5;
-}
-
-.reg-link{
-    font-size: 13px;
+.orange-link{
+    width: 155px;
     line-height: 15px;
-    color: white;
-    background-color: #ff7500;
-    text-decoration: none;   
+    background-color: #FF7500;
+    color: #fff;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 700;
+
 }
 
-
-.hero-text{
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.5;
-}
-.hero-content{
-width: 390px; ;
-}
 .hero{
-    background-color:#252420 ;
-    color: azure;
-    width: 1440px;
+    background-color: #252420;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-  /* SITE FEATURES */
-
-.feature-title{
-width: 440px;
-    font-size: 72px;  
-    line-height: 1.2;
-}
-.feature-title-1{
-    font-size: 24px ;
+.h2-heading{
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    width: 390px;
     line-height: 1.2;
     letter-spacing: 0.5px;
 }
-.features-text3{
-    width: 340px;
+
+.hero-text{
+
+    width: 387px;
+    font-size: 16px;
+    line-height:1.5 ;
+    letter-spacing: 1.5;
+
 }
-    
-.feature-icon-wraper{
+
+.hero-img{
+    width: 510px;
+    height: 510px;
+
+}
+
+/* FEATURE */
+
+.features-list{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+
+.features-heading{
+    font-weight: 700;
+    width:440px ;
+    font-size: 72px;
+    line-height: 1.2;
+    letter-spacing: 0.5px;
+}
+
+.feature-icon-wrapper{
     width: 100px;
     height: 100px;
-    background-color: rgba(255,117,0,0.2);
-}
-    /* SITE PROMO */
-
-.promo{
-    background-color:#252420 ;
-    color: white;
-    width: 1440px;    
+    background-color: rgba(255, 117, 0, 0.2)
 }
 
-.promo-content{
-    width: 440px;
-
-}
-.promo-heading{
-  font-style: 40px;
-  line-height: 48px ;  
-}
-
-.promo-text{
-    font-size: 16px;
-    line-height: 1.6;
+.feature-title{
+    font-family: "roboto condensed", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.2;
+    letter-spacing: 0.5px;
 }
 
-.promo-hightlight{
-    color: #ff7500;
-
+.features{
+    width: 314px;
+    font-weight: 400;
+    font-size: 16px; 
+    line-height: 24px;
+    letter-spacing: 0.5px;
 }
 
-.promo-img{
-    width: 440px;
-    height: 440px;
-    object-fit: cover;
+/* SALE */
+
+.sale{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #252420;
+    color: #fff;
 }
 
-                    /* SITE FOOTER */
-
-.site-footer{
-    background-color: #f8f8f8;
-
-}
-.footer-line{
-    background-color:rgba(37, 36, 32, 0.5) ;
-    width: 1100px;
-    height: 2px;
+strong{
+    color: #FF7500;
 }
 
-.site-footer-link-list{
-    width: 224px;
+.footer{
+text-decoration: none;
+list-style: none;
 }
 
-.site-footer-link-list a {
+/* footer */
+
+.site-footer-top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-links{
+    display: flex;
+    justify-content: space-between;
+    width: 224PX;
     text-decoration: none;
-    font-size: 16px;
-    line-height: 19px;
-    color: #252420 ;
+    list-style: none;
+    color: #000;
+}
+
+.footer-line{
+    width:1100px;
+    height: 2px;
+    background-color: rgba(37, 36, 32, 0.5)
+}
+
+.site-visit{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    align-items: center;
 }
