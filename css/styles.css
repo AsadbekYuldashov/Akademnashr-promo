@@ -1,7 +1,23 @@
 body{
     font-family: "roboto",  sans-serif;
 }
+
+*:focus{
+    outline-color: #f38f38 ;
+}
+
 /*site header */
+.logo-link{
+    transition: opacity 0.4s ease;
+}
+
+.logo-link:hover{
+    opacity: 0.8;
+}
+
+.logo-link:active{
+    opacity: 0.6;
+}
 
 header{
     border-top: 5px solid #FF7500;
@@ -43,7 +59,18 @@ header{
     text-transform: uppercase;
     text-decoration: none;
     color: #000;
+    transition: color 0.5s, opacity 0.4s ease;
 }
+
+.header-links:hover{
+color: #FF7500;
+}
+
+.header-links:active{
+    color: #FF7500;
+    opacity:0.6
+    }
+    
 
 /* HERO */
 
@@ -56,7 +83,16 @@ header{
     text-decoration: none;
     font-size: 13px;
     font-weight: 700;
+    transition: opacity 0.4s ease;
 
+}
+
+.orange-link:hover{
+    opacity: 0.8;
+}
+
+.orange-link:active{
+    opacity: 0.6;
 }
 
 .hero{
@@ -94,6 +130,12 @@ header{
 /* FEATURE */
 
 .features-list{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+
+.features-list-b{
     display: flex;
     list-style: none;
     justify-content: space-between;
@@ -163,6 +205,15 @@ list-style: none;
     text-decoration: none;
     list-style: none;
     color: #000;
+    transition: all 0.4s;
+}
+
+.footer-links:hover{
+    color: #FF7500;
+}
+
+.footer-links:active{
+    opacity: 0.8;
 }
 
 .footer-line{
@@ -173,7 +224,21 @@ list-style: none;
 
 .site-visit{
     display: flex;
-    justify-content: space-between;
     list-style: none;
     align-items: center;
+    transition: all 0.4s;
+}
+
+.current-color{
+    color: black;
+    transition: all 0.5s;
+    justify-content: space-between;
+}
+
+.current-color:hover{
+    color: #FF7500;
+}
+
+.curent-color:active{
+    opacity: 0.8;
 }
