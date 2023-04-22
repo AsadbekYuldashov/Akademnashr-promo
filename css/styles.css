@@ -6,7 +6,7 @@ body{
     outline-color: #f38f38 ;
 }
 
-/*site header */
+/*-----------------------------------------------site header--------------------------------------- */
 .logo-link{
     transition: opacity 0.4s ease;
 }
@@ -26,6 +26,7 @@ header{
 }
 .site-header{
     display: flex;
+    margin: 0;
     justify-content: space-between;
     align-items: center;
     background-color: #fff;
@@ -33,6 +34,7 @@ header{
     padding-bottom: 16px ;
     list-style: none;
 }
+
 
 .site-header-actions{
     display: flex;
@@ -53,11 +55,12 @@ header{
     width: 80px;
     height: 3px;
     background-color: #FF7500;
+    margin: 0;
+    margin-bottom: 40px;
     
 }
 
-.header-links{
-    padding: 4px;
+.sitenav-item{
     list-style: none;
     font-weight: 500;
     font-size: 13px;
@@ -66,20 +69,20 @@ header{
     text-transform: uppercase;
     text-decoration: none;
     color: #000;
-    transition: color 0.5s, opacity 0.4s ease;
+    transition:all 0.3s;
+    margin-right: 32px;
 }
 
-.header-links:hover{
-color: #FF7500;
+.sitenav-item:hover{
+    color: #FF7500;
 }
 
-.header-links:active{
+.sitenav-item:active{
     color: #FF7500;
     opacity:0.6
-    }
-    
+}
 
-/* HERO */
+/*----------------------------------------------------- HERO -----------------------------------------*/
 
 
 .orange-link{
@@ -128,10 +131,13 @@ color: #FF7500;
     width: 390px;
     line-height: 1.2;
     letter-spacing: 0.5px;
+    margin-top: 0;
+    margin-bottom: 24px;
 }
 
 .hero-text{
-
+    margin-top: 0;
+    margin-bottom: 32px;
     width: 387px;
     font-size: 16px;
     line-height:1.5 ;
@@ -146,12 +152,11 @@ color: #FF7500;
 
 }
 
-/* FEATURE */
+/* ------------------------------------------------FEATURE----------------------------------------- */
 
 .features{
     padding-top: 210px;
     padding-bottom: 210px;
-    width: 314px;
     font-weight: 400;
     font-size: 16px; 
     line-height: 24px;
@@ -159,11 +164,23 @@ color: #FF7500;
 }
 
 
-.features-list-b{
+.features-list{
+    margin: 0;
     display: flex;
     list-style: none;
-    justify-content: space-between;
+    
 }
+
+.features-item:last-child {
+    margin-right: 0;
+}
+
+.features-item{
+    width: 314px;
+    margin-right: 40px;
+}
+
+
 
 .features-heading{
     font-weight: 700;
@@ -171,6 +188,9 @@ color: #FF7500;
     font-size: 72px;
     line-height: 1.2;
     letter-spacing: 0.5px;
+    margin-top: 0;
+    margin-bottom: 72px;
+
 }
 
 .feature-icon-wrapper{
@@ -191,8 +211,11 @@ color: #FF7500;
     letter-spacing: 0.5px;
 }
 
+.feature-text {
+    width: 314;
+}
 
-/* SALE */
+/* -------------------------------------------------------SALE--------------------------------------- */
 
 .sale{
     display: flex;
@@ -202,7 +225,10 @@ color: #FF7500;
     background-color: #252420;
     color: #fff;
 }
-
+ .h2-heading{
+    margin-top: 0;
+    margin-bottom: 24px;
+ }
 .sale-img {
     border-radius: 12px;
 }
@@ -211,7 +237,16 @@ strong{
     color: #FF7500;
 }
 
-/* footer */
+.promo-text {
+    margin-top: 0;
+    margin-bottom: 12px;
+}
+
+.promo-text:last-child {
+    margin-bottom: 0;
+}
+
+/* --------------------------------------------------footer----------------------------------------- */
 
 .site-footer {
     padding-top: 56px;
@@ -240,6 +275,9 @@ strong{
     list-style: none;
     color: #000;
     transition: all 0.4s;
+    padding: 0;
+    margin: 0;
+    margin-right: 68px;
 }
 
 .footer-links:hover{
@@ -251,9 +289,12 @@ strong{
 }
 
 .footer-line{
+    margin-top: 40px;
+    margin-bottom: 64px;
     width:1100px;
     height: 2px;
     background-color: rgba(37, 36, 32, 0.5)
+
 }
 
 .site-visit{
@@ -264,7 +305,23 @@ strong{
     transition: all 0.4s;
 }
 
+.site-visit li {
+    margin-right: 16px;
+}
+
+.site-visit a {
+    display: block;
+}
+
+.site-visit svg {
+    display: block;
+}
+
+.site-visit li:last-child{
+    margin: 0;
+}
 .current-color{
+    margin-right: 5px;
     color: black;
     transition: all 0.5s;
     justify-content: space-between;

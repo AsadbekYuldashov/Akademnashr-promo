@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Akademnashr</title>
     <!-- CSS -->
+    <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/styles.css">
     <!-- FONTS -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -21,10 +22,10 @@
         <div class="site-header-actions">
             <nav class="sitenav">
                 <ul class="sitenav-list">
-                    <li><a class="header-links" href="#">Bosh sahifa</a></li>
-                    <li><a class="header-links" href="#">KItoblar</a></li>
-                    <li><a class="header-links" href="#">Aksiyalar</a></li>
-                    <li><a class="header-links" href="#">Kontaktlar</a></li>
+                    <li><a class="sitenav-item" href="#">Bosh sahifa</a></li>
+                    <li><a class="sitenav-item" href="#">KItoblar</a></li>
+                    <li><a class="sitenav-item" href="#">Aksiyalar</a></li>
+                    <li><a class="sitenav-item" href="#">Kontaktlar</a></li>
                 </ul>
             </nav>
             <a class="orange-link" href="#">Ro'yxatdan o'tish</a>
@@ -52,32 +53,29 @@
         <section class="features">
             <hr class="orange-line">
                 <h2 class="features-heading">Nega aynan Akademnashr?</h2>
-
-                <ul class="features-list">
-                    
-                    <div class="features-list-b">
-
-                        <li>
+                    <ul class="features-list">                        
+                        <li class="features-item">
                             <div class="feature-icon-wrapper">
-                                <img src="img/mouse.svg" alt="" width="56" height="56"></div>
+                                <img src="img/mouse.svg" alt="" width="56" height="56">
+                            </div>
                             <h3 class="feature-title">Oson buyurtma qilish</h3>
                             <p class="feature-text">Akademnashr.uz saytidan o’zingizga yoqqan kitobni sodda usulda buyurtma qila olasiz.</p>
                         </li>
                     
-                        <li><div class="feature-icon-wrapper">
+                        <li class="features-item">
+                            <div class="feature-icon-wrapper">
                             <img src="img/stars.svg" alt="" width="56" height="56"></div>
                             <h3 class="feature-title">Eng sara kitoblar</h3>
                             <p class="feature-text">Trenddagi eng ommabop, turli auditoriyalarga mo’ljallangan har xil janrdagi kitoblarni topa olasiz.</p>
                         </li>
 
 
-                        <li>
+                       <li class="features-item">
                             <div class="feature-icon-wrapper">
                                 <img src="img/bolt.svg" alt="" width="56" height="56"></div>
                             <h3 class="feature-title">Tez yetkazib berish</h3>
                             <p class="feature-text">O’zbekistonning ixtiyoriy hududiga 3 ish kuni ichida, xalqaro buyurtmalarni 10 ish kuni ichida yetkazib beriladi.</p>
                         </li>
-                    </div>
                     </ul>
         </section>
 
@@ -87,8 +85,10 @@
                 <div class="sale-content">
                     <h2 class="h2-heading">Bolalar kitoblari uchun
                         ajoyib aksiya!</h2>
-                        <p>Ertaklar, she’rlar, sarguzasht asarlar, fikrlashni o’stirish uchun turli mashq qo’llanmalari va komikslar.</p>
-                        <p>Aksiyadagi eng katta to’plamda <strong>50 ta kitob</strong>ni <strong>350 ming</strong> so’mga (aslida 383 ming so’m) sotib olishingiz mumkin.</p>
+                        <div class="promo-info-wrapper">
+                            <p class="promo-text">Ertaklar, she’rlar, sarguzasht asarlar, fikrlashni o’stirish uchun turli mashq qo’llanmalari va komikslar.</p>
+                            <p class="promo-text">Aksiyadagi eng katta to’plamda <strong>50 ta kitob</strong>ni <strong>350 ming</strong> so’mga (aslida 383 ming so’m) sotib olishingiz mumkin.</p>
+                        </div>
                         <a class="orange-link" href="#">Buyirtma berish</a>
                 </div>
                     
