@@ -9,6 +9,11 @@ body{
 /*-----------------------------------------------site header--------------------------------------- */
 .logo-link{
     transition: opacity 0.4s ease;
+    display: block;
+}
+
+.logo-link img {
+    display: block;
 }
 
 .logo-link:hover{
